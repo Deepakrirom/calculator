@@ -6,7 +6,7 @@ function Button({ children, className, onClick }) {
     <button
       onClick={onClick}
       className={twMerge(
-        `bg-gray-200 py-3 aspect-square rounded-2xl shadow-sm text-gray-900 
+        `bg-gray-200 py-3 text-2xl aspect-square rounded-2xl shadow-sm text-gray-900 
         hover:brightness-70 hover:cursor-pointer transition-all duration-100 ${className}`
       )}
     >
@@ -42,7 +42,6 @@ function Calculator() {
 
   return (
     <div className="bg-white p-5 rounded-2xl w-80">
-      <h3 className="italic py-2 text-xl">Princy Moirangthem</h3>
 
       {/* Display */}
       <div className="bg-gray-300 p-3 text-right mb-4 text-2xl rounded-xl break-all">
